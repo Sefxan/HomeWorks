@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: orange;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    background-color:orange;
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    transition: .10s;
+    
+}   
+.logo a{
+    text-decoration: none;
+}
+.logo:hover{
+  background: aqua;
+  color: blueviolet; 
+  border: 2px solid black;
+  transition: .5s;  
+  transform-origin: left;
+  
+}
+.nav_bar{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.nav_bar a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: rgb(211, 189, 189);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.nav_bar a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+
+}
+.menu{
+     text-decoration: none;
+     margin-left: 40px;
+     color: white;
+}
+.btn_log{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.nav_bar .btn_log:hover{
+    background: white;
+    color: red;
+    border: 2px solid black;
+    
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .5 );
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow:0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.wrapper .box_login{
+    width: 100%;
+    padding: 40px;
+}
+.box_login h2{
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom:2px solid green ;
+    margin: 30px 0;
+
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50px);
+    font-size: 1em;
+    color: blueviolet;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:black;
+    font-weight:600px;
+    padding:0 35px 0 5px ;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: chartreuse;
+    line-height: 57px;
+}
+.forgot{
+    font-size:.9em ;
+    color: aqua;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    justify-content: space-between;
+}
+.forgot label input{
+    accent-color: red;
+    margin-right: 3px;
+}
+.forgot a{
+    color: brown;
+    text-decoration: none;
+}
+.forgot a :hover{
+    text-decoration: underline;
+
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: yellow;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color:red;
+    font-weight: 500;
+}
+.register-link{
+    font-size: .9em ;
+    color: blueviolet;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+
+}
+.register-link p a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.register-link p a :hover{
+    text-decoration: underline;
+}
