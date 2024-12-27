@@ -166,6 +166,7 @@ header{
     color: aqua;
     font-weight: 500;
     margin: -15px 0 15px;
+    display: flex;
     justify-content: space-between;
 }
 .forgot label input{
@@ -199,7 +200,9 @@ header{
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
-
+    display: flex;
+    justify-content: space-between;
+    
 }
 .register-link p a{
     color: blue;
