@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px) {
+    body{
+        height: 100%;
+        background-image:url(../wp3823842-milan-city-wallpapers-scaled.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .header{
+        width: 100%;
+    }
+    .box_1{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .menubar{
+        width:40px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .box_2{
+        display: flex;
+        margin-right: 10px;
+        margin-top: 10px;
+        gap: 5px;
+    }
+    .emart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -26px;
+        width: 100px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    html{
+        height: 100%;
+    }
+    
+    
+    .mobileScreen{
+        text-align: center;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 99px;
+        padding: 10px;
+    }
+    .mobileScreen button{
+        width: 120px;
+        padding: 10px;
+        font-weight: 800;
+        border: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    
+    }
+    
+    
+    .menu_bar{
+        top: 0;
+        left: 0;
+        width: 270px;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .menu{
+        height: 100%;
+        position: absolute;
+        left: -1050px;
+        top: 0px;
+        background-color: rgb(250, 249, 246);
+        font-size: 2rem;
+        backdrop-filter: blur;
+        transition: 0.7s;
+    }
+    .menu a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-size: 23px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .menu ul{
+        position: relative;
+        top: 15%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        gap: 25px;
+        list-style: none;
+        text-decoration: none;
+    }
+    .menu li{
+    width: 100%;
+    }
+    .x{
+        display: flex;
+        margin-left: 90px;
+        background: none;
+        text-decoration: none;
+        height: 20px;
+        font-size: 20px;
+        border: none;
+    }
+    
+    .active{
+        left: 0px;
+    }
+    .search{
+        color: black;
+        margin-left: 20px;
+        height: 30px;
+        width: 208px;
+        margin-top: 20px;
+        border-style: solid;
+        border-color: gray;
+        
+    }
+    .mobLog{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 30px;
+        gap: 5px;
+        font-size: 29px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
