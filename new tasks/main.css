@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 
+.dark{
+    background-color: #000;
+} */
+
+
+
+.todo_container{
+    background-color: #0c0c0d;
+    width: 428px;
+    height: 926px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.container{
+    background-color: #040c17;
+    color: white;
+    width: 399px;
+    height: 187px;
+    padding: 10px;
+    border-radius: 34px;
+    border: 1px solid gray;
+    display: flex; 
+    gap: 50px;
+     align-items: center; 
+    justify-content: center; 
+     
+}
+.number_box{
+    width: 116px;
+    height: 116px;
+    /* margin-left: 200px; */
+    padding-left: 30px;
+    border-radius: 200px;
+    background-color: #ffff;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+.number_1{
+    text-align: center;
+    padding-left: 15px;
+}
+/* .date_box{
+    width: 118px;
+    height: 20px;
+    margin-bottom: 535px;
+    padding-left: 21px;
+    background-color: red;
+    margin-bottom: 100px;
+}  */
+.write_box{
+    margin-bottom: 10px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+    /* padding-top: 40px; */
+} 
+.date{
+    font-size: 1.5em;
+}
+.input_box{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+}
+.input_box2{
+    width: 337px;
+    height: 40px;
+    border: 1px solid rgb(62, 56, 56);
+    border-radius: 6px;
+    padding: 8px;
+    gap: 8px;
+    background-color:#111112;
+    margin-top: 5px;
+    margin-right: 40px;
+    color: white;
+}
+.plus_btn{
+    background-color:#ffff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    font-size: 28px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.text_box_1{
+    gap: 20px;
+}
+.text_box{
+    color:white;
+    gap: 8px;   
+} 
+.text{
+    width: 380px;
+    height: 50px;
+    border: 2px solid rgb(62, 56, 56);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px; 
+    list-style-type: none;
+    background-color: #17171a;
+    display: flex;
+    justify-content: space-between; 
+    cursor: pointer;
+}
+.lista{
+    color:grey;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.but{
+    color: white;
+    background-color: #17171a;
+    text-decoration: none;
+    cursor: pointer;
+}
